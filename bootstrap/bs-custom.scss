@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+// Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../node_modules/bootstrap/scss/functions";
+
+// Include any default variable overrides here
+$primary: #434242;
+$secondary: #FBCC31;
+
+$font-family-base: 'Ubuntu', sans-serif;
+
+@import "../node_modules/bootstrap/scss/variables";
+
+// Include any default map overrides here
+$custom-colors: (
+  "accent": #00ff00,
+);
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
