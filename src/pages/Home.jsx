@@ -16,7 +16,7 @@ function Home() {
               Hello!
               <span className="text-primary"> I&apos;m Faiz</span>
             </h1>
-            <p>a CS Student currently have interest in Frontend Web Development</p>
+            <p>a CS Student who currently have interest in Frontend Web Development</p>
           </div>
         </div>
       </div>
@@ -24,7 +24,7 @@ function Home() {
       <div className="container-fluid py-5 bg-lightblue">
         <div className="container">
           <div className="row">
-            <div className="col-12 col-lg-6 text-center">
+            <div className="col-12 col-lg-6 text-center my-4">
               <Tilt tiltReverse tiltMaxAngleX={10} tiltMaxAngleY={10}>
                 <img src={Pic} alt="" width={500} className="rounded-4 img-fluid" />
               </Tilt>
