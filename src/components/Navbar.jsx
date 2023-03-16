@@ -12,13 +12,13 @@ function Navbar() {
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav text-center">
             <li className="nav-item">
-              <Link to="/" className="nav-link text-white">Codes</Link>
+              <Link to="/codes" className="nav-link text-white">Codes</Link>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-link text-white">Games</Link>
+              <Link to="/games" className="nav-link text-white">Games</Link>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-link text-white">Designs</Link>
+              <Link to="/designs" className="nav-link text-white">Designs</Link>
             </li>
           </ul>
         </div>

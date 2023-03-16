@@ -4,6 +4,9 @@ import {
 } from 'react-router-dom';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import Codes from './pages/Codes';
+import Designs from './pages/Designs';
+import Games from './pages/Games';
 import Home from './pages/Home';
 
 function App() {
@@ -13,6 +16,9 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/codes" element={<Codes />} />
+        <Route path="/games" element={<Games />} />
+        <Route path="/designs" element={<Designs />} />
       </Routes>
 
       <Footer />
