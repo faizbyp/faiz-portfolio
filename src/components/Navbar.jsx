@@ -10,7 +10,7 @@ function Navbar() {
           <span className="navbar-toggler-icon" />
         </button>
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul className="navbar-nav">
+          <ul className="navbar-nav text-center">
             <li className="nav-item">
               <Link to="/" className="nav-link text-white">Codes</Link>
             </li>

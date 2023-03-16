@@ -14,7 +14,7 @@ $font-family-base: 'Ubuntu', sans-serif;
 
 // Include any default map overrides here
 $custom-colors: (
-  "accent": #00ff00,
+  "lightblue": #C7D0FF,
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
