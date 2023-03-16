@@ -1,22 +1,21 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import {
-  BrowserRouter as Router, Link, Route, Routes,
+  BrowserRouter as Router, Route, Routes,
 } from 'react-router-dom';
-import Home from './components/Home';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
 
 function App() {
   return (
     <Router>
-      <nav>
-        Navbar
-        <Link to="/">Home</Link>
-      </nav>
+      <Navbar />
 
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
 
-      <footer>Footer</footer>
+      <Footer />
     </Router>
   );
 }

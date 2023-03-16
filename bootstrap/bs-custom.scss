@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 
 // Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "../node_modules/bootstrap/scss/functions";
 
 // Include any default variable overrides here
-$primary: #434242;
-$secondary: #FBCC31;
+$primary: #2855C9;
+$secondary: #5D8B67;
 
 $font-family-base: 'Ubuntu', sans-serif;
 
