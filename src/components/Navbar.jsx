@@ -20,6 +20,9 @@ function Navbar() {
             <li className="nav-item">
               <Link to="/designs" className="nav-link text-white">Designs</Link>
             </li>
+            <li className="nav-item">
+              <Link to="/blogs" className="nav-link text-white">Blogs</Link>
+            </li>
           </ul>
         </div>
       </div>

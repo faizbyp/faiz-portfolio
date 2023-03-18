@@ -4,6 +4,7 @@ import {
 } from 'react-router-dom';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import Blogs from './pages/Blogs';
 import Codes from './pages/Codes';
 import Designs from './pages/Designs';
 import Games from './pages/Games';
@@ -19,6 +20,7 @@ function App() {
         <Route path="/codes" element={<Codes />} />
         <Route path="/games" element={<Games />} />
         <Route path="/designs" element={<Designs />} />
+        <Route path="/blogs" element={<Blogs />} />
       </Routes>
 
       <Footer />
