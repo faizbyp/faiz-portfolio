@@ -39,7 +39,7 @@ function Blogs() {
 
   return (
     <div className="container">
-      <div className="row text-center py-5">
+      <div className="row text-center pt-5">
         <div className="col">
           <h1 className="display-2 text-primary">Blogs</h1>
           <p>Random writings of me</p>
